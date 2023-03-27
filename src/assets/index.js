@@ -69,5 +69,5 @@ export {
   desc,
   asc,
   ellipseyear,
-  ellipseclothes
+  ellipseclothes,
 };
