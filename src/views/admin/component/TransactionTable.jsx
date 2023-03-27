@@ -161,31 +161,31 @@ const TransactionTable = () => {
                                     <Row align="center" justify="space-between">
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="white" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="white" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Member Name
                                             </Text>
                                         </Grid>
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="white" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="white" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Transaction ID
                                             </Text>
                                         </Grid>
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="white" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="white" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Transaction Date Time
                                             </Text>
                                         </Grid>
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="white" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="white" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Transaction Status
                                             </Text>
                                         </Grid>
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="white" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="white" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Transaction Amount
                                             </Text>
                                         </Grid>
@@ -201,31 +201,31 @@ const TransactionTable = () => {
                                     <Row align="center" justify="flex-start">
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Member Name
                                             </Text>
                                         </Grid>
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Transaction ID
                                             </Text>
                                         </Grid>
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Transaction Date Time
                                             </Text>
                                         </Grid>
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Transaction Status
                                             </Text>
                                         </Grid>
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Transaction Amount
                                             </Text>
                                         </Grid>
@@ -240,31 +240,31 @@ const TransactionTable = () => {
                                     <Row align="center" justify="flex-start">
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Member Name
                                             </Text>
                                         </Grid>
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Transaction ID
                                             </Text>
                                         </Grid>
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Transaction Date Time
                                             </Text>
                                         </Grid>
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Transaction Status
                                             </Text>
                                         </Grid>
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Transaction Amount
                                             </Text>
                                         </Grid>
@@ -283,31 +283,31 @@ const TransactionTable = () => {
                                     <Row align="center" justify="flex-start">
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Member Name
                                             </Text>
                                         </Grid>
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Transaction ID
                                             </Text>
                                         </Grid>
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Transaction Date Time
                                             </Text>
                                         </Grid>
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Transaction Status
                                             </Text>
                                         </Grid>
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Transaction Amount
                                             </Text>
                                         </Grid>
@@ -322,31 +322,31 @@ const TransactionTable = () => {
                                     <Row align="center" justify="flex-start">
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Member Name
                                             </Text>
                                         </Grid>
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Transaction ID
                                             </Text>
                                         </Grid>
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Transaction Date Time
                                             </Text>
                                         </Grid>
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Transaction Status
                                             </Text>
                                         </Grid>
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Transaction Amount
                                             </Text>
                                         </Grid>
@@ -365,31 +365,31 @@ const TransactionTable = () => {
                                     <Row align="center" justify="flex-start">
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Member Name
                                             </Text>
                                         </Grid>
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Transaction ID
                                             </Text>
                                         </Grid>
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Transaction Date Time
                                             </Text>
                                         </Grid>
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Transaction Status
                                             </Text>
                                         </Grid>
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Transaction Amount
                                             </Text>
                                         </Grid>
@@ -404,31 +404,31 @@ const TransactionTable = () => {
                                     <Row align="center" justify="flex-start">
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Member Name
                                             </Text>
                                         </Grid>
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Transaction ID
                                             </Text>
                                         </Grid>
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Transaction Date Time
                                             </Text>
                                         </Grid>
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Transaction Status
                                             </Text>
                                         </Grid>
                                         <Spacer />
                                         <Grid sm>
-                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "Righteous" }}>
+                                            <Text size={15} color="black" css={{ m: 0, fontFamily: "poppins" }}>
                                                 Transaction Amount
                                             </Text>
                                         </Grid>

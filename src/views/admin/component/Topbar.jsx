@@ -30,7 +30,7 @@ const Topbar = ({ title }) => {
     }, [])
     return (
         <nav className="hidden md:flex shadow-sm bg-white py-3 px-5 border-b-[1px] border-b-gray-300 items-center sticky top-0 z-30 justify-between drop-shadow-xl">
-            <h5 className="text-[26px] font-semibold font-righteous my-3 mx-5">
+            <h5 className="text-[26px] font-semibold font-poppins my-3 mx-5">
                 <span>{title}</span>
             </h5>
             <div className='flex items-center gap-6'>

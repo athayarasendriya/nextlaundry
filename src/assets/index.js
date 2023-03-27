@@ -19,6 +19,7 @@ import owner from "./owner_icon.svg";
 import send from "./send_icon.svg";
 import service from "./service_sectionimg.svg";
 import titleLogo from "./titleLogo.svg";
+import titleLogo2 from "./titleLogo2.svg";
 import trendingdown from "./trendingdown_icon.svg";
 import trendingup from "./trendingup_icon.svg";
 import washMachine from "./washmachine_icon.svg";
@@ -30,6 +31,8 @@ import exporticon from "./export_icon.svg";
 import addicon from "./add_icon.svg";
 import desc from "./descending.svg";
 import asc from "./ascending.svg";
+import ellipseyear from "./ellipse_year.svg";
+import ellipseclothes from "./ellipse_clothes.svg";
 
 export {
   about,
@@ -53,6 +56,7 @@ export {
   send,
   service,
   titleLogo,
+  titleLogo2,
   trendingdown,
   trendingup,
   washMachine,
@@ -63,5 +67,7 @@ export {
   exporticon,
   addicon,
   desc,
-  asc
+  asc,
+  ellipseyear,
+  ellipseclothes
 };

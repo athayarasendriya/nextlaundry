@@ -1,36 +1,53 @@
 import styles from "../../../style"
-import { titleLogo } from "../../../assets"
+import { titleLogo2, mail, location, at } from "../../../assets"
 
 const Footer = () => {
   return (
-    <section className={`${styles.flexCenter} ${styles.paddingY}  flex`}>
-        <div className={`grid grid-cols-4 gap-4 w-full xl:px-0 sm:px-16 px-5 space-x-20 `}>
-          <div className={`flex-col`}>
-            <img src={titleLogo} alt="NEXTLAUNDRY" className="w-[336px] h-[40px]"></img>
-            <p className={` ${styles.paragraph} container w-full`}>
-              Lorem ipsum dolor sit amet consectetur. Purus tempus tincidunt massa laoreet in non.
-            </p>
-          </div>
-          <div className="flex-col">
-            <p className={` ${styles.paragraph} container w-1/4`}>
-              Company
-            </p>
-          </div>
-          <div className="flex-col">
-            <p className={` ${styles.paragraph} container w-1/4`}>
-              Support
-            </p>
-          </div>
-          <div className="flex-col">
-            <p className={` ${styles.paragraph} container w-1/4`}>
-              Contact Info
-            </p>
-          </div>
-          <div className={`w-full border-t-4`} color="white"></div>
-          <div className={`w-full flex items-end`}>
-          <p className={`text-right font-righteous font-medium ${styles.copyright} opacity-30 pb-5 pl-10 w-[700px] w-full`}>&copy;Copyright @ 2023 NextLaundry. All Rights Reserved.</p>
+    <section className={`flex-col ${styles.paddingY} ${styles.paddingX}`}>
+      <div className={`grid grid-cols-4 gap-4 w-full space-x-20 `}>
+        <div className={`flex-col`}>
+          <img src={titleLogo2} alt="NEXTLAUNDRY" className="w-[336px] h-[40px] mb-5"></img>
+          <p className={` ${styles.paragraph} container w-full`}>
+            Lorem ipsum dolor sit amet consectetur. Purus tempus tincidunt massa laoreet in non.
+          </p>
         </div>
+        <div className="flex-col">
+          <p className={` ${styles.paragraph} container w-full`}>
+            Company
+          </p>
+          <ul className="list-none font-poppins text-white -ml-1">
+            <li>About Us</li>
+            <li>Our Services</li>
+            <li>Partners</li>
+            <li>Articles</li>
+          </ul>
         </div>
+        <div className="flex-col">
+          <p className={` ${styles.paragraph} container w-full`}>
+            Support
+          </p>
+          <ul className="list-none font-poppins text-white -ml-1">
+            <li>Help Center</li>
+            <li>FAQ</li>
+            <li>Contact Us</li>
+            <li>Ticket Support</li>
+          </ul>
+        </div>
+        <div className="flex-col w-full">
+          <p className={` ${styles.paragraph} container w-full`}>
+            Contact Info
+          </p>
+          <ul className="list-none font-poppins text-white -ml-2">
+            <li className="flex "><img src={location} className='mr-3'/>Jl. Kliningan No. 6, Turangga</li>
+            <li className="flex "><img src={mail} className='mr-3' />nextlaundry@gmail.com</li>
+            <li className="flex "><img src={at} className='mr-3' />exam_nextlaundry_official</li>
+          </ul>
+        </div>
+      </div>
+      <div className={`w-full border-t-4 mt-60`} color="black"></div>
+      <div className={`w-full flex items-end`}>
+        <p className={`text-right font-poppins font-medium ${styles.copyright} opacity-55 pb-5 pl-10 w-full`}>&copy;Copyright @ 2023 NextLaundry. All Rights Reserved.</p>
+      </div>
     </section>
   )
 }

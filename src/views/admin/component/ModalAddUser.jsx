@@ -9,9 +9,9 @@ const ModalAddUser = ({ close, visible, save }) => {
     );
     return (
         <>
-            <Modal width='35%' open={visible} closeButton onClose={close} aria-labelledby="modal-add-member" css={{ fontFamily: "Righteous" }}>
+            <Modal width='35%' open={visible} closeButton onClose={close} aria-labelledby="modal-add-member" css={{ fontFamily: "poppins" }}>
                 <Modal.Header>
-                    <Text id="modal-title" size={24} css={{ fontFamily: "Righteous" }}>
+                    <Text id="modal-title" size={24} css={{ fontFamily: "poppins" }}>
                         Add New
                     </Text>
                     <Spacer x={0.35} />
@@ -27,7 +27,7 @@ const ModalAddUser = ({ close, visible, save }) => {
                     <Spacer />
                     <Input labelLeft="Password" type="text" clearable fullWidth color='primary' size='lg' placeholder='type here...' />
                     <Spacer />
-                    <Dropdown css={{ minWidth: "100%", fontFamily: "Righteous" }} >
+                    <Dropdown css={{ minWidth: "100%", fontFamily: "poppins" }} >
                         <Dropdown.Button flat color="secondary" css={{ tt: "capitalize" }} >
                             {selectedValue}
                         </Dropdown.Button>

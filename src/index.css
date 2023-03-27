@@ -51,6 +51,9 @@
   background-image: url(./assets/hero_sectionimglow.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: bottom;
+  background-blend-mode: darken;
+  filter: brightness(50%);
 }
 
 .latar-about{
@@ -58,9 +61,7 @@
 }
 
 .latar-service{
-  background-image: url(./assets/service_sectionglow.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: black;
 }
 
 .latar-contact{
@@ -68,7 +69,7 @@
 }
 
 .latar-footer {
-  background-color: blue;
+  background-color: royalblue;
 }
 
 .latar-auth {

@@ -35,29 +35,29 @@ const Auth = () => {
       </Helmet>
       <div className={`flex justify-start items-center`}>
         <div className={`md:h-screen min-h-screen latar-auth w-full flex items-end`}>
-          <p className={`font-righteous font-medium ${styles.copyright} opacity-30 pb-5 pl-10 w-[700px]`}>&copy;Copyright @ 2023 NextLaundry. All Rights Reserved.</p>
-          <div className={`bg-purple w-full border-b-4 border-gray-100 border-l-4 border-t-4 rounded-l-2xl h-screen`}>
+          <p className={`font-poppins font-medium ${styles.copyright} opacity-30 pb-5 pl-10 w-[700px]`}>&copy;Copyright @ 2023 NextLaundry. All Rights Reserved.</p>
+          <div className={`bg-white w-full  -2xl h-screen`}>
             <div className={`${styles.flexCenter} flex-col w-full my-10`}>
               <h1 className={`${styles.authHeading} text-center`}>
                 AUTHENTICATION REQUIRED!
               </h1>
-              <p className={`${styles.paragraph}`}>SEE IF YOU CAN PASS OUR AUTH SYSTEM TO GET INTO ADMIN DASHBOARD</p>
+              <p className={`${styles.paragraph2}`}>SEE IF YOU CAN PASS OUR AUTH SYSTEM TO GET INTO ADMIN DASHBOARD</p>
               <br />
               <form className="flex flex-col w-1/2" onSubmit={loginHandler}>
-                <div className='bg-sky-50/[0.5] border-2 border-gray-100 rounded-lg'>
-                  <input type="email" required ref={emailRef} disabled={loading} className='w-full font-righteous bg-transparent border-none focus:outline-none p-5 text-white placeholder:text-white placeholder:font-righteous' placeholder='Email' />
+                <div className='bg-sky-50/[0.5] border-2 border-black-100 rounded-lg'>
+                  <input type="email" required ref={emailRef} disabled={loading} className='w-full font-poppins bg-transparent border-none focus:outline-none p-5 text-black placeholder:text-black placeholder:font-poppins' placeholder='Email' />
                 </div>
-                <div className='bg-sky-50/[0.5] border-2 border-gray-100 rounded-lg mt-10 flex flex-row'>
-                  <input type={toggle ? "password" : "text"} disabled={loading} ref={passwordRef} required className='w-full font-righteous bg-transparent border-none focus:outline-none p-5 text-white placeholder:text-white placeholder:font-righteous' placeholder='Password' />
+                <div className='bg-sky-50/[0.5] border-2 border-black-100 rounded-lg mt-10 flex flex-row'>
+                  <input type={toggle ? "password" : "text"} disabled={loading} ref={passwordRef} required className='w-full font-poppins bg-transparent border-none focus:outline-none p-5 text-black placeholder:text-black placeholder:font-poppins' placeholder='Password' />
                   <button className='mr-5' onClick={() => setToggle(!toggle)}><img src={toggle ? eye : closeEye} alt="" className='w-[32px] h-[32px]' /></button>
                 </div>
-                <div className='bg-blue border-2 border-gray-100 rounded-lg mt-10'>
-                  <button type="submit" disabled={loading} className='w-full font-righteous bg-transparent border-none focus:outline-none p-5 text-white placeholder:text-white placeholder:font-righteous'>LET ME IN</button>
+                <div className='bg-royalBlue border-2 border-gray-100 rounded-lg mt-10'>
+                  <button type="submit" disabled={loading} className='w-full font-poppins bg-transparent border-none focus:outline-none p-5 text-white placeholder:text-white placeholder:font-poppins'>LET ME IN</button>
                 </div>
               </form>
               <div className={`bg-whiteGrey container w-1/2 h-[5px] rounded-[50px] my-10`}>
               </div>
-              <p className={`${styles.paragraph} w-1/2 text-center`}>ONLY ADMIN, CASHIER, AND OWNER ARE ALLOWED!
+              <p className={`${styles.paragraph2} w-1/2 text-center`}>ONLY ADMIN, CASHIER, AND OWNER ARE ALLOWED!
                 DON'T EVEN TRY TO DO BRUTE FORCING
                 OR USING SQL INJECTION</p>
             </div>

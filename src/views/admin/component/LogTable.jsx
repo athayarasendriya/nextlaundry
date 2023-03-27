@@ -48,14 +48,14 @@ const LogTable = () => {
                             <Row align="center" justify="flex-start">
                                 <Spacer />
                                 <Grid>
-                                    <Text size={15} color="white" css={{ m: 0, fontFamily: "Righteous" }}>
+                                    <Text size={15} color="white" css={{ m: 0, fontFamily: "poppins" }}>
                                         What To Do With Selected Data?
                                     </Text>
 
                                 </Grid>
                                 <Spacer />
                                 <Grid>
-                                    <Dropdown css={{ minWidth: "100%", fontFamily: "Righteous" }} isDisabled={disabled}>
+                                    <Dropdown css={{ minWidth: "100%", fontFamily: "poppins" }} isDisabled={disabled}>
                                         <Dropdown.Button flat color="secondary" css={{ tt: "capitalize" }} isDisabled={disabled}>
                                             {selectedValue}
                                         </Dropdown.Button>
@@ -84,7 +84,7 @@ const LogTable = () => {
                                         paddingTop: 0,
                                         paddingBottom: 0,
                                         height: "50%",
-                                        fontFamily: "Righteous"
+                                        fontFamily: "poppins"
                                     }} placeholder="🔍 Search Data By Name Or ID"/>
                                  </Grid>
                                  <Spacer />
@@ -93,14 +93,14 @@ const LogTable = () => {
                                  </Grid>
                                  <Spacer />
                                  <Grid>
-                                    <Tooltip content={"Sort By Ascending"} color="secondary" css={{ fontFamily: "Righteous" }}>
-                                        <Button auto onPress={() => { onPressedAsc(true); onPressedDesc(false);}} icon={<img src={asc} className={pressedAsc ? "opacity-100" : "opacity-25" } />}/>
+                                    <Tooltip content={"Sort By Ascending"} color="secondary" css={{ fontFamily: "poppins" }}>
+                                        <Button auto onPress={() => { onPressedAsc(true); onPressedDesc(false);}} icon={<img src={asc} className={pressedAsc ? "opacity-100" : "opacity-100" } />}/>
                                     </Tooltip>
                                  </Grid>
                                  <Spacer />
                                 <Grid>
-                                    <Tooltip content={"Sort By Descending"} color="secondary" css={{fontFamily: "Righteous"}}>
-                                        <Button auto onPress={() => { onPressedDesc(true); onPressedAsc(false); }} icon={<img src={desc} className={pressedDesc ? "opacity-100" : "opacity-25"} />}/>
+                                    <Tooltip content={"Sort By Descending"} color="secondary" css={{fontFamily: "poppins"}}>
+                                        <Button auto onPress={() => { onPressedDesc(true); onPressedAsc(false); }} icon={<img src={desc} className={pressedDesc ? "opacity-100" : "opacity-100"} />}/>
                                     </Tooltip>
                                 </Grid>
                             </Row>
@@ -119,7 +119,7 @@ const LogTable = () => {
                 css={{
                     height: "auto",
                     minWidth: "100%",
-                    fontFamily: "Righteous"
+                    fontFamily: "poppins"
                 }}
                 selectionMode="multiple"
                 

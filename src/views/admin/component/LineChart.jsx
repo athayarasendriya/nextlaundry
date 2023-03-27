@@ -25,8 +25,8 @@ const LineChart = ({analytics}) => {
     });
   return (
     <div className='container mt-2'>
-        <h2 className={`font-righteous`}>{analytics} Analytics</h2>
-          <div className={`bg-purple container w-1/4 h-[10px] rounded-[50px] my-2`}>
+        <h2 className={`font-poppins`}>{analytics} Analytics</h2>
+          <div className={`bg-royalBlue container w-1/4 h-[10px] rounded-[50px] my-2`}>
           </div>
         <Line data={chartData} options={{
             plugins: {

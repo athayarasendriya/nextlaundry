@@ -72,12 +72,12 @@ const ExportAddBtn = ({ stmt }) => {
         <>
             <Grid.Container justify='flex-end' gap={1}>
                 <Grid>
-                    <Button icon={expicons} bordered color="gradient" auto className={`font-righteous z-0`}>
+                    <Button icon={expicons} bordered color="gradient" auto className={`font-poppins z-0`} >
                         Export All Data
                     </Button>
                 </Grid>
                 <Grid>
-                    <Button icon={addicons} bordered color="gradient" auto className={`font-righteous z-0`} onPress={openModal}>
+                    <Button icon={addicons} bordered color="gradient" auto className={`font-poppins z-0`} onPress={openModal}>
                         Add {stmt}
                     </Button>
                 </Grid>

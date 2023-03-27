@@ -1,5 +1,5 @@
 import React from 'react'
-import { titleLogo, admin } from '../../../assets'
+import { titleLogo2, admin } from '../../../assets'
 import { useLocation } from 'react-router-dom'
 import { adminSidebarLinks, dangerSidebarLinks, historySidebarLinks } from '../../../model/constants'
 import SidebarItems from './SidebarItems'
@@ -9,10 +9,10 @@ const Sidebar = () => {
   const locationNow = useLocation();
   return (
     <>
-          <nav className="bg-purple pl-6 pr-6 py-7 justify-center h-screen w-full sidebarSticky border-t-2 border-r-2 border-b-2 border-white rounded-br-xl rounded-tr-xl hidden md:flex">
+          <nav className="bg-grey pl-6 pr-6 py-7 justify-center h-screen w-full sidebarSticky border-t-2 border-r-2 border-b-2 border-white rounded-br-xl rounded-tr-xl hidden md:flex">
               <div className="w-full my-5 gap-1 flex flex-col">
                   <div className="mb-4 -mt-8">
-                      <img src={titleLogo} alt="logo" className="w-full" />
+                      <img src={titleLogo2} alt="logo" className="w-full" />
                   </div>
 
                   <div className='flex justify-center items-center '><img src={admin} alt="" /><h5 className="font-medium text-white pt-2">Admin</h5></div>

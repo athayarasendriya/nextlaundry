@@ -2,20 +2,26 @@ const styles = {
   boxWidth: "xl:max-w-[1280px] w-full",
 
   heading2:
-    "font-righteous font-semibold xs:text-[60px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
+    "font-poppins font-semibold xs:text-[60px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
+
+  heading3:
+    "font-poppins font-semibold xs:text-[60px] text-[40px] text-black xs:leading-[76.8px] leading-[66.8px] w-full",
 
   adminHeading:
-    "font-righteous font-semibold xs:text-[30px] text-[20px] xs:leading-[76.8px] leading-[66.8px] w-full",
+    "font-poppins font-semibold xs:text-[30px] text-[20px] xs:leading-[76.8px] leading-[66.8px] w-full",
 
   paragraph:
-    "font-righteous font-normal text-white text-[18px] leading-[30.8px] pb-5",
+    "font-poppins font-normal text-white text-[18px] leading-[30.8px] pb-5",
+
+  paragraph2:
+    "font-poppins font-normal text-black text-[18px] leading-[30.8px] pb-5",
 
   authHeading:
-    "font-righteous font-semibold xs:text-[32px] text-[24px] xs:leading-[76.8px] leading-[66.8px] text-white w-full",
+    "font-poppins font-semibold xs:text-[32px] text-[24px] xs:leading-[76.8px] leading-[66.8px] text-black w-full",
 
-  copyright: "font-righteous font-normal text-whiteGrey text-[16px]",
-  sidebartext: "font-righteous font-normal text-white text-[14px]",
-  sidebartextSelected: "font-righteous font-normal text-magenta text-[14px]",
+  copyright: "font-poppins font-normal text-whiteGrey text-[16px]",
+  sidebartext: "font-poppins font-normal text-white text-[14px]",
+  sidebartextSelected: "font-poppins font-normal text-magenta text-[14px]",
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",

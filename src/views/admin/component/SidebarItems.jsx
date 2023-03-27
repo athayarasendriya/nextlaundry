@@ -5,7 +5,7 @@ import styles from '../../../style'
 const SidebarItems = ({locationNow, itemPath, itemName, icon }) => {
   return (
       <Link to={itemPath} 
-      className={`flex items-center gap-3 p-3 rounded-sm hover:bg-gray-500 opacity-70 text-white ${locationNow.pathname.includes(itemPath) && " bg-blue opacity-100 text-white font-bold hover:bg-blue"}
+      className={`flex items-center gap-3 p-3 rounded-sm   opacity-100 text-white ${locationNow.pathname.includes(itemPath) && " bg-royalBlue opacity-100 text-white font-bold hover:bg-royalBlue"}
       `}> <img src={icon} alt="" />
       <p className={`${styles.sidebartext}`}>{itemName}</p>
     </Link>

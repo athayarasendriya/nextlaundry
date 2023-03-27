@@ -1,25 +1,21 @@
-import {login, dot, arrow, fatarrow, reversefatarrow, trendingup, trendingdown} from "../assets/";
+import {login, arrow, fatarrow, reversefatarrow, trendingup, trendingdown} from "../assets/";
 
 export const navLinks = [
     {
         id: "home",
         title: "Home", 
-        dot:dot
     },
     {
         id: "about",
         title: "About",
-        dot: dot
     },
     {
         id: "services",
         title: "Services",
-        dot: dot
     },
     {
         id: "contact",
         title: "Contact",
-        dot: dot
     },
     {
         id: "auth",
